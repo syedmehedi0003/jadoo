@@ -1,17 +1,21 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Volkhov:wght@700&display=swap');
 
-
-
-
+/* header part  */
+#header {
+    background-image: url(../../images/Decore.png);
+    background-repeat: no-repeat;
+    background-position-y: 0%;
+    background-position-x: 100%;
+}
 
 /* navbar start  */
 .navbar {
     display: flex;
-    margin-left: 146px;
-    width: 1200.87px;
+    margin-left: 141px;
+    width: 1200px;
     margin: 0 auto;
-    margin-top: 47px;
+    padding-top: 47px;
     justify-content: space-between;
 }
 
@@ -27,8 +31,6 @@
     padding: 0px;
     align-items: center;
 }
-
-
 
 nav ul {
     display: flex;
@@ -57,4 +59,265 @@ li a:hover {
     border: 1px solid #212832;
     border-radius: 5px;
     padding: 9px 21px;
+}
+
+/* .navbar .rr {
+    width: 10px;
+    height: 6px;
+    color: #212832;
+} */
+
+
+/* +++++++++++++++++++++ Navbar end  +++++++++++++++++++++++++ */
+
+
+
+/* banner start  */
+.banner {
+    display: flex;
+    margin-left: 108px;
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.description .pera1 {
+    margin-top: 148px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #DF6951;
+}
+
+.description .pera2 {
+    margin-top: 24px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 84px;
+    letter-spacing: -0.04em;
+    color: #181E4B;
+    width: 545px;
+    height: 267px;
+}
+
+.description .pera3 {
+
+    top: 574.53px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+
+.more {
+    display: flex;
+    margin-top: 32px;
+}
+
+.more button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 170px;
+    height: 57.87px;
+
+}
+
+.more .play {
+    width: 100px;
+    margin-top: -10px;
+
+}
+
+.more .play-text {
+    width: 92px;
+    height: 25.08px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #686D77;
+}
+
+.banner-pic {
+    position: relative;
+}
+
+.banner-pic .lady {
+    margin: 0;
+    padding: 0;
+}
+
+.plane1 {
+    position: absolute;
+    top: 66px;
+    left: 36px;
+}
+
+.plane2 {
+    position: absolute;
+    top: 80px;
+    left: 634px;
+}
+
+/* banner part end  */
+/* ============================= header end  =================================== */
+
+/* services part start  */
+
+.services {
+    background-image: url(../../images/Group4.png);
+    background-repeat: no-repeat;
+    background-position-y: 0%;
+    background-position-x: 100%;
+    margin-bottom: 40px;
+}
+
+.services p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.services h2 {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+    margin-top: 8px;
+}
+
+.service {
+    margin-left: 108px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+
+.service-box {
+    padding: 20px;
+}
+
+.service-box img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 60px;
+
+}
+
+.service-box .img2 {
+    width: 50%;
+}
+
+#bgimg {
+    background-image: url(../../images/Rectangle\ 157.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position-y: 98%;
+    background-position-x: -12%;
+    width: 302px;
+    height: 348.91px;
+    padding-left: 24px;
+}
+
+
+#box {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    width: 250px;
+    height: 280px;
+
+}
+
+.service-box h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1D4C;
+}
+
+
+.service-box p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #5E6282;
+    padding: 0px 24px;
+}
+
+/* =========================== services part end  ===================================== */
+
+/* Top Destinations part start */
+
+.destination p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.destination h2 {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.desc-card {
+    margin-left: 130px;
+    width: 1102px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+
+
+    background-image: url(../../images/Decore2.png);
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-position-x: 100%;
+    padding: 30px;
+}
+
+.card-box {
+    display: block;
+    width: 318px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
