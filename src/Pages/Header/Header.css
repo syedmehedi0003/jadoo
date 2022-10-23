@@ -1,0 +1,60 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Volkhov:wght@700&display=swap');
+
+
+
+
+
+/* navbar start  */
+.navbar {
+    display: flex;
+    margin-left: 146px;
+    width: 1200.87px;
+    margin: 0 auto;
+    margin-top: 47px;
+    justify-content: space-between;
+}
+
+.navbar img {
+    margin-top: 0px;
+    Width: 114.91px;
+    Height: 33.99px;
+}
+
+.navbar .title {
+    font-size: 24px;
+    color: #3A3A3A;
+    padding: 0px;
+    align-items: center;
+}
+
+
+
+nav ul {
+    display: flex;
+    margin-top: 0px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    margin-left: 55px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+li a:hover {
+    border: 1px solid #212832;
+    border-radius: 5px;
+    padding: 9px 21px;
+}

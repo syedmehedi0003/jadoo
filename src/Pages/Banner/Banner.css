@@ -1,0 +1,13 @@
+.banner {
+    display: flex;
+    width: 1200.87px;
+    height: 764px;
+    justify-content: center;
+    margin-left: 148px;
+}
+
+.banner-pic {
+    width: 765px;
+    height: 764px;
+
+}
