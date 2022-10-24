@@ -2,13 +2,13 @@ import React from 'react';
 
 import '../Header/Header.css';
 
-import logo from '../../images/Logo.png';
-import arrow from '../../images/Vector 1.png'
+import logo from '../../images/Header/Logo.png';
+import arrow from '../../images/Header/Vector 1.png';
 
-import image1 from '../../images/Traveller 1.png';
-import play from '../../images/play.png';
-import group1 from '../../images/Group.png';
-import group2 from '../../images/Group.png';
+import image1 from '../../images/Header/Traveller 1.png';
+import play from '../../images/Header/play.png';
+import group1 from '../../images/Header/Group.png';
+import group2 from '../../images/Header/Group.png';
 
 import { FaAngleDown } from 'react-icons/fa';
 

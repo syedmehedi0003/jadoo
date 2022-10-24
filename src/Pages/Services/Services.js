@@ -1,11 +1,11 @@
 import React from 'react';
 
 import '../Header/Header.css';
-import img1 from '../../images/Group48.png';
-import img2 from '../../images/Group51.png';
-import img3 from '../../images/Group50.png';
-import img4 from '../../images/power-supply 1.png';
-import bgimg from '../../images/Rectangle 157.png';
+import img1 from '../../images/Services/Group48.png';
+import img2 from '../../images/Services/Group51.png';
+import img3 from '../../images/Services/Group50.png';
+import img4 from '../../images/Services/power-supply 1.png';
+import bgimg from '../../images/Services/Rectangle 157.png';
 
 const Services = () => {
     return (

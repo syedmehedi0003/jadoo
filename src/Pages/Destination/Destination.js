@@ -1,8 +1,14 @@
 import React from 'react';
+// import { BsFillCursorFill } from 'react-icons/fa';
+import { BsFillCursorFill } from "react-icons/bs";
+
 
 import '../Header/Header.css';
-import img1 from '../../images/Rectangle 14.png';
-import arrow from '../../images/navigation 1.png';
+import img1 from '../../images/Destination/Rectangle 14.png';
+import img2 from '../../images/Destination/Rectangle 14.jpg';
+import img3 from '../../images/Destination/Rectangle 14 (1).png';
+
+import arrow from '../../images/Destination/navigation 1.png';
 
 const Destination = () => {
     return (
@@ -21,7 +27,7 @@ const Destination = () => {
                             <div className='desc'>
                                 <div>
                                     <p>Rome, Italty</p>
-                                    <p> <span><img src={arrow} alt="" /></span> 10 Days Trip</p>
+                                    <p> <span><BsFillCursorFill /></span> 10 Days Trip</p>
                                 </div>
                                 <div>
                                     <p>$5,42k</p>
@@ -36,15 +42,15 @@ const Destination = () => {
 
                     <div className='card-box'>
 
-                        <img src={img1} alt="" />
+                        <img src={img2} alt="" />
 
                         <div className='desc'>
                             <div>
-                                <p>Rome, Italty</p>
-                                <p> <span><img src={arrow} alt="" /></span> 10 Days Trip</p>
+                                <p>London, UK</p>
+                                <p> <span><BsFillCursorFill /></span> 12 Days Trip</p>
                             </div>
                             <div>
-                                <p>$5,42k</p>
+                                <p>$4.2k</p>
                             </div>
                         </div>
 
@@ -52,15 +58,15 @@ const Destination = () => {
 
                     <div className='card-box'>
 
-                        <img src={img1} alt="" />
+                        <img src={img3} alt="" />
 
                         <div className='desc'>
                             <div>
-                                <p>Rome, Italty</p>
-                                <p> <span><img src={arrow} alt="" /></span> 10 Days Trip</p>
+                                <p>Full Europe</p>
+                                <p> <span><BsFillCursorFill /></span> 28 Days Trip</p>
                             </div>
                             <div>
-                                <p>$5,42k</p>
+                                <p>$15k</p>
                             </div>
                         </div>
 

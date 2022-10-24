@@ -3,16 +3,16 @@
 
 /* header part  */
 #header {
-    background-image: url(../../images/Decore.png);
+    background-image: url(../../images/Header/Decore.png);
     background-repeat: no-repeat;
     background-position-y: 0%;
     background-position-x: 100%;
+    margin-bottom: 120px;
 }
 
 /* navbar start  */
 .navbar {
     display: flex;
-    margin-left: 141px;
     width: 1200px;
     margin: 0 auto;
     padding-top: 47px;
@@ -61,21 +61,12 @@ li a:hover {
     padding: 9px 21px;
 }
 
-/* .navbar .rr {
-    width: 10px;
-    height: 6px;
-    color: #212832;
-} */
-
-
 /* +++++++++++++++++++++ Navbar end  +++++++++++++++++++++++++ */
-
 
 
 /* banner start  */
 .banner {
     display: flex;
-    margin-left: 108px;
     width: 1200px;
     margin: 0 auto;
 
@@ -122,7 +113,7 @@ li a:hover {
     background-color: orange;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -175,11 +166,11 @@ li a:hover {
 /* services part start  */
 
 .services {
-    background-image: url(../../images/Group4.png);
+    background-image: url(../../images/Services/Group4.png);
     background-repeat: no-repeat;
     background-position-y: 0%;
     background-position-x: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .services p {
@@ -202,18 +193,14 @@ li a:hover {
 }
 
 .service {
-    margin-left: 108px;
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 30px;
+    margin: 0 auto;
 }
 
-
-.service-box {
-    padding: 20px;
-}
 
 .service-box img {
     margin-left: auto;
@@ -230,13 +217,13 @@ li a:hover {
 }
 
 #bgimg {
-    background-image: url(../../images/Rectangle\ 157.png);
+    background-image: url(../../images/Services/Rectangle\ 157.png);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
-    background-position-y: 98%;
+    background-position-y: 100%;
     background-position-x: -12%;
     width: 302px;
-    height: 348.91px;
+    height: 310px;
     padding-left: 24px;
 }
 
@@ -271,6 +258,11 @@ li a:hover {
 
 /* Top Destinations part start */
 
+.destination {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .destination p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -291,33 +283,377 @@ li a:hover {
 }
 
 .desc-card {
-    margin-left: 130px;
-    width: 1102px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 30px;
 
-
-    background-image: url(../../images/Decore2.png);
+    background-image: url(../../images/Destination/Decore2.png);
     background-repeat: no-repeat;
     background-position-y: 80%;
     background-position-x: 100%;
-    padding: 30px;
 }
 
 .card-box {
     display: block;
-    width: 318px;
+    width: 320px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 35px;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+}
+
+.card-box img {
+    width: 100%;
 }
 
 .desc {
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
+}
+
+/* ============================== Top Destinations part End ==================================== */
+
+/* easy steps start  */
+
+.easySteps {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 180px;
+    display: flex;
+}
+
+.nextTrip p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5E6282;
+
+}
+
+.nextTrip h2 {
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #14183E;
+    /* width: 511px; */
+}
+
+.steps {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.stepText {
+    margin-left: 20px;
+}
+
+.stepText h4 {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.stepText h5 {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.trip {
+    margin-left: 116px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.trip-card {
+    display: block;
+    width: 320px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 90px;
+
+
+}
+
+.trip-card h3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #080809;
+    display: inline-block;
+
+}
+
+.trip-card p {
+    color: #84829A;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.stepIcon {
+    color: #84829A;
+    margin-right: 30px;
+}
+
+.card-img img {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-left: -102px;
+    margin-top: 295px;
+    border-radius: 10px;
+}
+
+.trip-card .love {
+    color: #4152CA;
+    margin-left: 140px;
+}
+
+/*============================= easy steps end ============================= */
+
+/* about us start  */
+
+.aboutUs {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 180px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5E6282;
+}
+
+.aboutText h2 {
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #14183E;
+    width: 409px;
+    margin-bottom: 80px;
+}
+
+.about-card {
+    margin-left: 190px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.about-card h5 {
+    width: 402px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.about-desc {
+    padding-left: 60px;
+}
+
+.ceo {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.ceo p,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.ceo h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E6282;
+}
+
+/*================================== about us end ================================  */
+
+
+/* our partner part start  */
+
+.partner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+    margin-left: 130px;
+}
+
+.partner img {
+    margin-right: 120px;
+}
+
+/* ============================= our partner part end ================================ */
+
+.subscribe {
+    margin-left: 101px;
+    margin: 0 auto;
+    Height: 490px;
+    margin-bottom: 100px;
+
+    background-image: url(../../images/Subscribe//Group\ 5.png);
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-position-x: 100%;
+    position: relative;
+}
+
+.subscribe .bfImg {
+    position: absolute;
+    opacity: 0.1;
+    transform: rotate(90deg);
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+.subscribe img {
+    margin-left: 90%;
+}
+
+.subscribe h1 {
+    width: 859px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 33px;
+    text-align: center;
+    margin: 0 auto;
+    color: #5E6282;
+    margin-bottom: 74px;
+}
+
+.subscribe .input {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.subscribe .input-box {
+    width: 30%;
+    padding: 24px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border: none;
+
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #39425D;
+}
+
+.subscribe button {
+    padding: 20px 50px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+
+/*=============================== subscribe part end ======================= */
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .jadoo {
+    width: 207px;
+
+}
+
+.footer .jadoo h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    color: #181E4B;
+    margin-bottom: 18px;
+    margin-top: 0px;
+}
+
+.footer .jadoo h5 {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    color: #5E6282;
+}
+
+.footer .Company h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 21px;
+    color: #080809;
+}
+
+.footer .Company p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6282;
+
+}
+
+.footer .fText {
+    margin-left: 20px;
+}
+
+.footer .app img {
+    margin-right: 10px;
+}
+
+.copyText {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5E6282;
+    margin-top: 84px;
+    margin-bottom: 80px;
 }
