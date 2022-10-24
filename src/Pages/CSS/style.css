@@ -93,6 +93,14 @@ li a:hover {
     height: 267px;
 }
 
+.description .pera2 {
+    background-image: url(../../images/Header/bar.png);
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+    background-position-x: 100%;
+
+}
+
 .description .pera3 {
 
     top: 574.53px;

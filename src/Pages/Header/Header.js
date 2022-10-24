@@ -1,9 +1,11 @@
 import React from 'react';
 
 import '../CSS/style.css';
+import '../CSS/mobile.css';
+
 
 import logo from '../../images/Header/Logo.png';
-import arrow from '../../images/Header/Vector 1.png';
+
 
 import image1 from '../../images/Header/Traveller 1.png';
 import play from '../../images/Header/play.png';
@@ -45,7 +47,9 @@ const Header = () => {
                     <div className='description'>
                         <p className='pera1'>Best Destinations around the world</p>
 
-                        <p className='pera2'>Travel, enjoy <br />
+                        <p className='pera2'>Travel,
+                            enjoy
+                            <br />
                             and live a new <br />
                             and full life
                         </p>
