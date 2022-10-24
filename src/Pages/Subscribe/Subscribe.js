@@ -1,7 +1,10 @@
 import React from 'react';
 
+import '../CSS/style.css';
+
 import imgarrow from '../../images/Subscribe/Group 77.png';
 import bgimg1 from '../../images/Subscribe/Group 42.png';
+import bgimg2 from '../../images/Subscribe/Group 42.png';
 
 // import { BsEnvelope } from "react-icons/bs";
 
@@ -14,6 +17,7 @@ const Subscribe = () => {
 
                     <div>
                         <img className='bfImg' src={bgimg1} alt="" />
+                        <img className='bfImg2' src={bgimg2} alt="" />
                     </div>
 
                     <h1>Subscribe to get information, latest news and other

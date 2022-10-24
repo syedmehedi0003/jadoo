@@ -3,7 +3,8 @@ import React from 'react';
 import { BsFillCursorFill } from "react-icons/bs";
 
 
-import '../Header/Header.css';
+import '../CSS/style.css';
+
 import img1 from '../../images/Destination/Rectangle 14.png';
 import img2 from '../../images/Destination/Rectangle 14.jpg';
 import img3 from '../../images/Destination/Rectangle 14 (1).png';

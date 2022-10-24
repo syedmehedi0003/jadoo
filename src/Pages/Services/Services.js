@@ -1,6 +1,8 @@
 import React from 'react';
 
-import '../Header/Header.css';
+
+import '../CSS/style.css';
+
 import img1 from '../../images/Services/Group48.png';
 import img2 from '../../images/Services/Group51.png';
 import img3 from '../../images/Services/Group50.png';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../Header/Header.css';
+import '../CSS/style.css';
 
 import logo from '../../images/Header/Logo.png';
 import arrow from '../../images/Header/Vector 1.png';

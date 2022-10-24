@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../CSS/style.css';
+
 import social from '../../images/Footer/Social.png';
 import google from '../../images/Footer/Google Play.png';
 import apple from '../../images/Footer/Play Store.png';

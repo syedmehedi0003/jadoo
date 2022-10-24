@@ -1,6 +1,7 @@
 import React from 'react';
 
-import '../Header/Header.css';
+
+import '../CSS/style.css';
 
 import img1 from '../../images/Partner/image 27.png';
 import img2 from '../../images/Partner/image 28.png';

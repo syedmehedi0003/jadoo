@@ -4,7 +4,7 @@ import { FaLeaf } from 'react-icons/fa';
 import { FaLocationArrow } from 'react-icons/fa';
 import { BsSuitHeart } from "react-icons/bs";
 
-import '../Header/Header.css';
+import '../CSS/style.css';
 
 import img1 from '../../images/EasySteps/Group 7.png';
 import img2 from '../../images/EasySteps/Group 12.png';
